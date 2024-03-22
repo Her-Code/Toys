@@ -11,3 +11,11 @@
   background-color: greenyellow;
   position: absolute;
 }
+
+
+h1{
+    font-size: 3em;
+    color: rgb(150, 6, 6);
+    text-align: center;
+    padding-bottom: 35px;
+}
