@@ -15,10 +15,20 @@
     margin: 50px auto;
     position: relative;
 }
-/* class center */
+/* position to center */
 .center{
     background-color: rgb(164, 180, 21);
     width: 15px;
     height: 15px;
     border-radius: 50%;
+    position: absolute;
+    top: 114.5px;
+    left: 114.5px;
+}
+.speedometer-scale{
+    height: 246px;
+    width: 6px;
+    background-color: black;
+    position: absolute;
+    left: 119px;
 }
