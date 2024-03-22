@@ -1,9 +1,9 @@
-function calGrade(){
+
+function calculateGrade(){
     const marks = parseFloat(document.getElementById('marks').value);
-
+    
+   
 let grade;
-
-document.getElementById('result').innerText = 'Student grade: ${grade}';
 
 if (marks > 79){
     grade = 'A' ;
@@ -16,4 +16,7 @@ if (marks > 79){
 }else{
     grade = 'E'
 }
+
+document.getElementById('result').innerText = `Student grade: ${grade}`;
 }
+
