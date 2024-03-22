@@ -14,15 +14,19 @@
   </head>
 
   <body>
+    <!-- adding to a container -->
     <div class="detectorContainer">
       <h1>Speeding Checker</h1>
       <div class="flex-box">
+        <!-- creating a card -->
         <div class="card">
           <div class="input">
             <label for="speed">Speed 70kmh:</label><br />
-            <input type="number" id="speed" min="0" />
+            <!-- minimun speed is 0kmh -->
+            <input type="number" id="speed" min="0" /> 
             <button onclick="checkSpeed()">Check</button>
           </div>
+          <!-- output -->
           <div id="result"></div>
         </div>
       </div>

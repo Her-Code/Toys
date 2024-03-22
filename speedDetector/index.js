@@ -1,3 +1,4 @@
+//conditions
 function checkSpeed(){
     const speedInput =document.getElementById("speed").value;
     //coversion of input value to a number.
