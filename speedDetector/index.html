@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Speedometer</title>
+    <title>Speed Ticketing</title>
 </head>
 <body>
-    <div class="speedometer-container">
-        <div class="center"></div>
-        <div class="speedometer-scale"></div>
+    <h1>Speed Detector</h1>
+    <div class="input-container">
+        <label for="speedInput">Enter your speed (in mph):</label><br>
+        <input type="number" id="speedInput" point="5">
+        <button onclick="detectSpeed()">Detect</button>
     </div>
+    <div id="speedMessage"></div>
+    <script src="index.js"></script>
 </body>
 </html>
