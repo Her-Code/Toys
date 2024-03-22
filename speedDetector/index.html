@@ -7,13 +7,15 @@
     <title>Speed Ticketing</title>
 </head>
 <body>
+    <div class="detectorContainer">
     <h1>Speed Detector</h1>
-    <div class="input-container">
-        <label for="speedInput">Enter your speed (in mph):</label><br>
-        <input type="number" id="speedInput" point="5">
+    <div class="input">
+        <label for="speedInput">Speed (0-200kmh):</label><br>
+        <input type="number" id="speedInput" min="0" max="200">
         <button onclick="detectSpeed()">Detect</button>
     </div>
     <div id="speedMessage"></div>
+</div>
     <script src="index.js"></script>
 </body>
 </html>
