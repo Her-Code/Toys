@@ -1,5 +1,6 @@
 
 function calculateGrade(){
+    
     const marks = parseFloat(document.getElementById('marks').value);
     
    
