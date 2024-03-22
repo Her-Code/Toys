@@ -3,6 +3,8 @@ function calGrade(){
 
 let grade;
 
+document.getElementById('result').innerText = 'Student grade: ${grade}';
+
 if (marks > 79){
     grade = 'A' ;
 }else if(marks >= 60){
@@ -14,6 +16,4 @@ if (marks > 79){
 }else{
     grade = 'E'
 }
-
-document.getElementById('result').innerText = 'Student grade: ${grade}';
 }
