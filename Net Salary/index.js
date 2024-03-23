@@ -1,4 +1,4 @@
-
+//add Event Listener
 document.getElementById("salaryForm").addEventListener("submit", function(event) {
     event.preventDefault();
     calculateSalary();
