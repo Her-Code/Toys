@@ -36,6 +36,6 @@ if (percentage > 79){
     grade = 'E'
 }
 
-document.getElementById('result').innerText = `Student grade: ${grade}`;
+document.getElementById('demo').innerText = `Student grade: ${grade}`;
 }
 
