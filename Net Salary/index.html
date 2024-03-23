@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <h2>Net Salary Calculator</h2>
+    <form id = "salaryForm">
+        <label for="basic Salary">Basic Salary (Ksh)</label>
+        <input type="number" id="basicSalary" name="basicSalary" required><br><br>
+
+        <label for="benefits">Benefit (Ksh)</label>
+        <input type="number" id="benefits" name="benefits" required><br><br>
+
+        <button type="button" onclick="calculateSalary()">Calculate</button>
+    </form>
+    <h3>Results</h3>
+    <p id="grossSalary"></p>
+    <p id="payee"></p>
+    <p id="nhifDeductions"></p>
+    <p id="nssfDeductions"></p>
+    <p id="netSalary"></p>    
+</body>
+</html>
