@@ -5,14 +5,14 @@
 }
 .container{
     width: 100%;
-    height: 200px;
+    height: 100vh;
     background-color: rgb(80, 138, 138);
 }
 .container .card{
-      width: 400px;
-      height: 50px;
-      border-radius: 5px;
-      background-color: rgb(179, 73, 73);
+      width: 450px;
+      height: 70px;
+      border-radius: 20px;
+      background: rgb(179, 73, 73);
       border-top: 1px solid rgb(51, 28, 28);
       box-shadow: rgb(21 21 21) 0px 20px 30px -10px;
 }
@@ -28,24 +28,26 @@ h2{
     position: relative;
     top: 20%;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 39px;
     font-size: 2.5em;
     color: #491919;
     font-family: "Noto Serif", serif;;
     font-weight: bold;
 }
 .input{
-    margin: 5px 0px;
+    margin: 15px 0px;
     text-align: center;
 }
 
 .input input{
-    width: 70px;
-    height: 30px;
-    margin: 5px;
+    width: 95%;
+    height: 46px;
+    margin: 15px;
     font-weight: bold;
     text-indent: 15px;
+    border: none;
     border-radius: 4px;
+    padding: 10px 15px;
     transition: transform 1s;
 }
 
