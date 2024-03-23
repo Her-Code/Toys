@@ -1,7 +1,7 @@
 
 function calculateGrade(){
-    
-    const marks = parseFloat(document.getElementById('marks').value);
+
+    // const marks = parseFloat(document.getElementById('marks').value);
     
    
 let grade;
