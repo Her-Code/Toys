@@ -2,7 +2,12 @@
 function calculateGrade(){
 
     // const marks = parseFloat(document.getElementById('marks').value);
-    
+    let html =document.getElementById("html").value;
+        css =document.getElementById("css").value;
+        js =document.getElementById("js").value;
+        skill =document.getElementById("skill").value;
+
+    let sum = parseFloat(html) + parseFloat(css) + parseFloat(js) + parseFloat(skill)
    
 let grade;
 
