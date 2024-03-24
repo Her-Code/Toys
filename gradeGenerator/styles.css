@@ -1,8 +1,10 @@
+/* body */
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+/* houses the items */
 .container{
     width: 100%;
     height: 100vh;
@@ -31,7 +33,7 @@ h2{
     margin: 15px 0px;
     text-align: center;
 }
-
+/* style input element */
 .input input{
     width: 80%;
     height: 40px;
@@ -43,7 +45,7 @@ h2{
     padding: 10px 15px;
     transition: transform 1s;
 }
-
+/* element in input */
 ::placeholder{
     font-weight: bold;
     text-indent: 30px;
