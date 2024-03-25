@@ -3,6 +3,7 @@
 ## _It is my code challenge_
 
 ---
+# **Description**
 It has 3 challenges which are:
 
 * Student Grade Generator - 
